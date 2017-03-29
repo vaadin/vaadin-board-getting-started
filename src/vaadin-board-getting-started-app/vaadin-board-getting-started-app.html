@@ -1,0 +1,52 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/vaadin-board/vaadin-board.html">
+
+<dom-module id="vaadin-board-getting-started-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      .item {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #fff;
+        text-align: center;
+        background-color: #cacaca;
+        height:100px;
+      }
+    </style>
+    <vaadin-board>
+      <vaadin-board-row>
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </vaadin-board-row>
+      <vaadin-board-row>
+        <div class="item">1</div>
+        <div class="item">2</div>
+      </vaadin-board-row>
+    </vaadin-board>
+  </template>
+
+  <script>
+    class MyApplication extends Polymer.Element {
+      static get is() { return 'vaadin-board-getting-started-app'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'vaadin-board-getting-started-app'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(MyApplication.is, MyApplication);
+  </script>
+</dom-module>

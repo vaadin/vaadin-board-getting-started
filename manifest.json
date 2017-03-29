@@ -1,0 +1,6 @@
+{
+  "name": "vaadin-board-getting-started",
+  "short_name": "vaadin-board-getting-started",
+  "start_url": "/",
+  "display": "standalone"
+}
