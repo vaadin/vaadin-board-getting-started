@@ -1,7 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/vaadin-board/vaadin-board.html">
 
-<dom-module id="vaadin-board-getting-started-app">
+<dom-module id="my-app">
   <template>
     <style>
       :host {
@@ -36,12 +36,12 @@
 
   <script>
     class MyApplication extends Polymer.Element {
-      static get is() { return 'vaadin-board-getting-started-app'; }
+      static get is() { return 'my-app'; }
       static get properties() {
         return {
           prop1: {
             type: String,
-            value: 'vaadin-board-getting-started-app'
+            value: 'my-app'
           }
         };
       }
