@@ -9,12 +9,12 @@
     <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../../src/my-app/vaadin-board-getting-started-app.html">
+    <link rel="import" href="../../src/my-app/my-app.html">
   </head>
   <body>
     <test-fixture id="basic">
       <template>
-        <vaadin-board-getting-started-app></vaadin-board-getting-started-app>
+        <my-app></my-app>
       </template>
     </test-fixture>
 
@@ -22,7 +22,7 @@
       suite('vaadin-board-getting-started-app', function() {
         test('instantiating the element works', function() {
           var element = fixture('basic');
-          assert.equal(element.is, 'vaadin-board-getting-started-app');
+          assert.equal(element.is, 'my-app');
         });
       });
     </script>
