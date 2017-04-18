@@ -3,7 +3,7 @@
   "main": "index.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0-rc.2",
-    "vaadin-board": "^1.0.0-alpha1"
+    "vaadin-board": "^1.0.0-alpha3"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
